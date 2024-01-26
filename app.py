@@ -16,12 +16,12 @@ data_lines = [line.strip().split('|') for line in lines[1:]]
 date = str(datetime.now())
 date = date[slice(0,10)]
 
-# @app.route('/customers/statistics', methods=['GET'])
-def GetCustomers(grouping = 'CustomerType', ageVerified = 'Yes', IdentityExpired = 'Yes'):
+@app.route('/customers/statistics', methods=['GET'])
+def GetCustomers():
     # if request.method == 'GET':
-    #     grouping = request.args.get('grouping', default=None)
-    #     ageVerified = request.args.get('AgeVerified', default=None)
-    #     identityExpired = request.args.get('IdentityExpired', default=None)
+    grouping = request.args.get('grouping', default=None)
+    ageVerified = request.args.get('AgeVerified', default=None)
+    IdentityExpired = request.args.get('IdentityExpired', default=None)
     if grouping is not None:
         if grouping == 'Country' or grouping == 'CustomerType':
             pass
@@ -52,22 +52,25 @@ def GetCustomers(grouping = 'CustomerType', ageVerified = 'Yes', IdentityExpired
                     grouped_data[customer].append(data)
                 else:
                     grouped_data[customer] = [data]
-
+    return_json = []
     for key in grouped_data:
         count = len(grouped_data[key])
         sum = 0
         for sets in grouped_data[key]:
             sum += int(sets[7])
         avg = sum/count
-        print(key)
-        print(grouped_data[key])
-        print(count)
-        print(avg)
-        print('\n')
-            # count = len(grouped_data)
-            # avg = 0
-            # for group in grouped_data:
-            #     avg += 
-        
+        # print(key)
+        # print(grouped_data[key])
+        # print(count)
+        # print(avg)
+        # print('\n')
+        return_grouping = {
+            "averageIncome": avg,
+            "count": count,
+            "grouping": key 
+        }
+        return_json.append(return_grouping)
+    return jsonify(return_json)
 
-GetCustomers()
+if __name__ == '__main__':
+    app.run(debug=True)
