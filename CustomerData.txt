@@ -1,0 +1,101 @@
+CustomerID|CustomerName|DOB|Country|AgeVerified|IDExpiry|CustomerType|ExpectedMonthlyIncome
+16370827-1642|Hermione Bartlett|1996-02-22|Virgin Islands, United States|0|2025-10-22|Bank|8410
+16000103-1822|Ginger Maynard|2010-06-03|Sao Tome and Principe|1|2021-11-10|Corporate|5309
+16950805-5713|Breanna Hawkins|1971-08-15|Slovenia|1|2030-03-05|Individual|7484
+16720110-7153|Xandra Solis|1999-08-22|Gibraltar|1|2023-02-13|Individual|9287
+16440419-4054|Cruz Head|1977-03-26|Bermuda|0|2026-11-16|Corporate|5238
+16711122-2845|Damian Cooke|2003-05-10|Angola|1|2031-07-29|Individual|9728
+16170321-5457|Flavia Franco|1950-02-04|Slovakia|1|2024-10-12|Bank|7451
+16050602-7804|Mariam Hayes|1985-07-05|Luxembourg|0|2021-01-08|Bank|9549
+16350801-8763|James Stout|1966-01-24|Virgin Islands, British|1|2029-05-23|Corporate|9451
+16000313-2180|Kane Bridges|1963-04-03|Mongolia|0|2022-01-18|Individual|7419
+16080519-6961|Zoe Gross|1945-09-24|Guinea-Bissau|1|2022-02-02|Bank|9509
+16910902-2575|Darryl Carrillo|1988-05-11|Mali|1|2022-12-06|Bank|7013
+16840709-6208|Ishmael Lawson|1945-01-30|Austria|1|2021-06-24|Individual|5609
+16630906-6881|Kenneth Leach|1977-03-14|Nigeria|0|2030-05-24|Bank|9973
+16240823-8919|Farrah Cruz|1959-07-27|Dominican Republic|0|2022-04-30|Bank|7210
+16180703-3293|Noelani Hodge|1962-02-05|Haiti|1|2026-08-22|Bank|8654
+16260805-2110|Moana Soto|1979-12-23|Equatorial Guinea|0|2030-02-04|Individual|9962
+16420129-6482|Paula Owens|1949-04-25|Palestine, State of|1|2022-10-29|Corporate|5493
+16980307-5754|Connor Maynard|1986-06-24|Qatar|1|2022-01-30|Individual|7647
+16510921-0871|Shad Potter|2005-02-01|Poland|0|2022-07-04|Individual|8366
+16760713-5469|Carl Stark|1977-10-13|Denmark|1|2024-10-27|Bank|8484
+16020411-2551|Denise Greene|2010-02-26|Albania|1|2028-05-14|Corporate|8291
+16150903-9119|Russell Swanson|1996-09-19|Northern Mariana Islands|1|2023-06-29|Bank|8064
+16520102-4014|Montana Neal|1985-01-18|Guatemala|1|2023-04-09|Individual|7672
+16980801-8114|Lunea Rich|2001-12-31|Sint Maarten|0|2026-04-04|Individual|8798
+16530416-4121|Nichole Spence|1959-09-26|Bonaire, Sint Eustatius and Saba|0|2030-08-22|Corporate|8803
+16841128-9963|Dillon Boyle|1948-12-10|Mayotte|0|2027-09-05|Bank|8322
+16820927-7253|Kay Blackwell|1975-12-27|South Georgia and The South Sandwich Islands|1|2020-11-16|Corporate|9049
+16000630-1857|Renee Fox|1966-09-24|Romania|1|2022-01-11|Bank|9847
+16640710-6571|Keith Sims|2015-01-01|Suriname|0|2026-08-13|Individual|7671
+16951001-0417|Deirdre Turner|1980-10-13|Algeria|1|2021-11-15|Corporate|6258
+16741013-4014|Teegan Nieves|2007-09-07|Croatia|0|2032-01-20|Individual|5587
+16430525-5251|Kylan Logan|1974-09-03|Finland|0|2022-03-01|Bank|7125
+16510912-5079|Zachery Sharp|1980-06-24|Cuba|1|2021-02-27|Corporate|7362
+16430517-8537|Noah Suarez|2000-10-13|Costa Rica|0|2027-10-26|Corporate|8565
+16210601-7193|Christine Tyson|2000-12-26|Cook Islands|0|2024-01-08|Corporate|5093
+16751120-7370|Chadwick Durham|1999-11-08|Nicaragua|1|2021-05-02|Individual|5307
+16100410-3352|Odysseus Hensley|1994-02-02|Côte D'Ivoire (Ivory Coast)|1|2028-07-17|Bank|9711
+16151219-9843|Vera Ashley|1964-05-06|American Samoa|0|2026-03-30|Corporate|9598
+16470827-9387|Oprah Kidd|1953-08-05|Timor-Leste|0|2029-04-10|Bank|7345
+16630118-0540|Bert Barry|1978-07-30|Virgin Islands, United States|1|2027-12-22|Corporate|9228
+16040109-0493|Whoopi Conrad|1956-05-28|French Southern Territories|1|2021-10-16|Individual|5936
+16471229-8910|Patience Giles|1986-04-11|Côte D'Ivoire (Ivory Coast)|1|2024-02-18|Bank|6090
+16650323-0564|Elijah Warren|1975-11-29|French Polynesia|0|2026-02-24|Bank|7922
+16360711-1246|Kane Mclean|2011-01-10|Moldova|1|2027-10-26|Individual|7146
+16741222-4037|Lewis Clark|2012-05-13|Kiribati|1|2024-10-29|Bank|6737
+16561105-5608|Ryan Guy|1983-05-12|India|1|2022-11-23|Bank|8479
+16360129-8767|Judith Ward|1957-09-27|Reunion|1|2028-01-28|Bank|9673
+16170204-6317|Akeem Macdonald|1983-09-09|Guernsey|0|2022-08-25|Corporate|8976
+16940107-9737|Jacqueline Singleton|1995-03-05|Montserrat|1|2030-03-18|Corporate|5725
+16290221-4762|Merrill Small|1968-11-22|Egypt|1|2031-08-24|Bank|7794
+16861211-1321|Ann Medina|2010-12-05|Reunion|1|2020-11-25|Individual|9479
+16620112-7278|Jael Faulkner|1980-02-10|Tokelau|1|2028-03-18|Corporate|6096
+16541026-2975|Kelly Mays|2003-04-01|Iraq|1|2030-02-01|Corporate|9744
+16180117-9324|Ginger Frazier|2004-01-21|New Caledonia|0|2032-07-02|Individual|7090
+16490711-8378|Amethyst Shannon|1960-09-10|Nicaragua|1|2029-11-08|Corporate|8324
+16190920-9023|Micah Page|1945-09-05|Sri Lanka|0|2029-02-18|Individual|8500
+16430616-6101|Otto Everett|1967-11-15|Tanzania|1|2030-07-16|Corporate|9574
+16890327-8581|Maxine Mercer|1947-08-06|Sudan|0|2029-06-23|Corporate|9278
+16701216-9251|Alexandra Berry|1947-09-04|South Georgia and The South Sandwich Islands|0|2021-05-02|Corporate|8961
+16730417-7566|Reece Chan|2011-05-27|Norway|1|2028-06-28|Corporate|7396
+16411211-2570|Stephanie Shepard|1952-06-22|Venezuela|0|2022-06-08|Individual|8891
+16410525-3357|Cain House|1956-11-30|Puerto Rico|0|2024-09-10|Corporate|5884
+16021230-1485|Zoe Shaw|1982-02-27|Iraq|1|2020-12-08|Bank|5026
+16331125-2435|Reese Cleveland|1979-04-13|Belgium|1|2029-03-04|Bank|8959
+16870529-5205|Jermaine Wallace|1976-11-21|Armenia|0|2024-12-30|Individual|9241
+16000410-2737|Phillip Hurst|1981-09-01|Azerbaijan|1|2029-10-30|Individual|8278
+16150522-1224|Adam Carver|1976-04-06|Libya|1|2024-07-13|Corporate|8278
+16750228-1681|Galena Mann|2007-02-02|Greece|1|2020-11-10|Corporate|7762
+16360708-6075|Knox Sharp|1965-04-14|Saint Pierre and Miquelon|0|2024-06-14|Corporate|6566
+16640330-8262|Edan Martin|1952-03-12|Anguilla|1|2028-05-02|Individual|7371
+16110904-5540|Patience Hodges|1966-06-29|Malawi|1|2031-04-01|Individual|6181
+16970107-0568|Karyn Finley|1964-11-08|Palau|1|2025-12-03|Bank|8356
+16170321-6968|Ima Mcbride|2000-03-31|Poland|1|2031-10-26|Bank|5047
+16370328-5191|Elton Hubbard|1959-01-03|Samoa|0|2026-12-10|Individual|7888
+16430202-1268|Kimberly Gay|2003-01-07|Philippines|0|2026-08-22|Bank|5304
+16300318-7477|Kaye Rich|1976-09-16|Pitcairn Islands|1|2022-05-09|Bank|5578
+16830607-8679|Zahir Stokes|2010-03-13|Paraguay|1|2029-03-09|Bank|7248
+16000819-2924|Leo Hull|1983-01-14|Algeria|1|2028-05-09|Individual|8378
+16300427-2518|Laurel Cooper|2002-11-17|British Indian Ocean Territory|1|2022-12-10|Corporate|8826
+16200306-4108|Kelsie Sanders|1945-03-03|New Zealand|0|2031-08-08|Bank|7312
+16610601-8846|Rahim Robbins|1992-07-04|Venezuela|1|2024-12-18|Corporate|6822
+16200501-0570|Wallace Joseph|1975-03-29|Martinique|1|2029-04-01|Individual|5283
+16950622-5854|Brent Stanley|1998-08-18|Chile|1|2023-05-15|Bank|6370
+16941130-6724|Levi Lamb|1965-02-27|Virgin Islands, British|1|2022-06-18|Individual|6432
+16410405-4426|Cade Mercado|1986-09-09|French Polynesia|1|2023-10-06|Individual|8614
+16620120-8649|Noel Ramirez|1976-01-10|Romania|1|2026-01-02|Bank|9977
+16670817-3619|Halla Munoz|2013-11-01|United Arab Emirates|0|2030-01-23|Bank|6197
+16950205-3565|Melvin Kelley|1956-11-29|Somalia|1|2026-05-14|Individual|5221
+16201102-3617|Mufutau Mullins|1974-09-17|Cook Islands|1|2022-09-04|Corporate|5921
+16470521-3231|Richard Grimes|1973-04-15|Viet Nam|1|2028-10-04|Corporate|9096
+16160430-8062|George Noel|1957-02-12|China|1|2024-03-31|Bank|8543
+16490317-5638|Irma Silva|1953-09-01|Congo (Brazzaville)|1|2021-11-18|Bank|7457
+16440702-0694|Dolan Ramirez|2007-02-13|Hungary|0|2030-05-03|Bank|5907
+16080722-8978|Noel Hardin|2004-09-08|Burundi|0|2023-10-01|Corporate|6794
+16540109-4569|Ria Harvey|1992-12-10|Saint Lucia|1|2023-05-12|Bank|6837
+16320701-3008|Basia Matthews|2009-07-26|Saint Barthélemy|0|2025-09-20|Bank|7549
+16310503-7349|Cameron Levine|1966-06-01|Barbados|0|2028-06-18|Bank|6390
+16890128-5547|Jasmine Stuart|1963-08-28|Namibia|0|2032-08-10|Bank|5543
+16150206-3249|Jada Tate|1978-02-16|Panama|0|2023-08-21|Corporate|5214
