@@ -17,7 +17,7 @@ date = str(datetime.now())
 date = date[slice(0,10)]
 
 # @app.route('/customers/statistics', methods=['GET'])
-def GetCustomers(grouping = 'Country', ageVerified = 'Yes', IdentityExpired = 'Yes'):
+def GetCustomers(grouping = 'CustomerType', ageVerified = 'Yes', IdentityExpired = 'Yes'):
     # if request.method == 'GET':
     #     grouping = request.args.get('grouping', default=None)
     #     ageVerified = request.args.get('AgeVerified', default=None)
@@ -32,7 +32,7 @@ def GetCustomers(grouping = 'Country', ageVerified = 'Yes', IdentityExpired = 'Y
 
     grouped_data = {}
     count = 0
-    if grouping == 'Country':
+    if grouping == 'Country' or grouping == 'CustomerType':
         for data in data_lines:
             if ageVerified is not None and ageVerified == 'Yes':
                 if data[4]=='0':
@@ -40,11 +40,18 @@ def GetCustomers(grouping = 'Country', ageVerified = 'Yes', IdentityExpired = 'Y
             if IdentityExpired is not None and IdentityExpired == 'Yes':
                 if data[5] < date:
                     continue
-            country = data[3]
-            if country in grouped_data:
-                grouped_data[country].append(data)
-            else:
-                grouped_data[country] = [data]
+            if grouping == 'Country':
+                country = data[3]
+                if country in grouped_data:
+                    grouped_data[country].append(data)
+                else:
+                    grouped_data[country] = [data]
+            elif grouping == 'CustomerType':
+                customer = data[6]
+                if customer in grouped_data:
+                    grouped_data[customer].append(data)
+                else:
+                    grouped_data[customer] = [data]
 
     for key in grouped_data:
         count = len(grouped_data[key])
