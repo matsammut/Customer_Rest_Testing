@@ -17,7 +17,7 @@ date = str(datetime.now())
 date = date[slice(0,10)]
 
 # @app.route('/customers/statistics', methods=['GET'])
-def GetCustomers(grouping = 'Country', ageVerified = 1, IdentityExpired = 1):
+def GetCustomers(grouping = 'Country', ageVerified = 'Yes', IdentityExpired = 'Yes'):
     # if request.method == 'GET':
     #     grouping = request.args.get('grouping', default=None)
     #     ageVerified = request.args.get('AgeVerified', default=None)
@@ -30,17 +30,16 @@ def GetCustomers(grouping = 'Country', ageVerified = 1, IdentityExpired = 1):
     else:
         return 'Error: No grouping provided',404
 
-    if ageVerified is None or ageVerified == True or ageVerified == False:
-        if ageVerified == 1:
-            #age = 2024-int(DOB)
-            pass
-        else:
-            return
-        
     grouped_data = {}
     count = 0
     if grouping == 'Country':
         for data in data_lines:
+            if ageVerified is not None and ageVerified == 'Yes':
+                if data[4]=='0':
+                    continue
+            if IdentityExpired is not None and IdentityExpired == 'Yes':
+                if data[5] < date:
+                    continue
             country = data[3]
             if country in grouped_data:
                 grouped_data[country].append(data)
@@ -62,4 +61,6 @@ def GetCustomers(grouping = 'Country', ageVerified = 1, IdentityExpired = 1):
             # avg = 0
             # for group in grouped_data:
             #     avg += 
+        
+
 GetCustomers()
